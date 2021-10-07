@@ -1,11 +1,4 @@
-<ul id="menu">
-	<li data-menuanchor="accueil"><a href="#accueil">accueil</a></li>
-	<li data-menuanchor="presentation-ecosysteme"><a href="#presentation-ecosysteme">L'ecosysteme</a></li>
-	<li data-menuanchor="videos"><a href="#videos">videos</a></li>
-	<li data-menuanchor="articles"><a href="#articles">articles</a></li>
-  <li data-menuanchor="team"><a href="#team">team</a></li>
-</ul>
-
+<app-navbar id="menu"></app-navbar>
 
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
   <div class="section">
@@ -24,22 +17,3 @@
     <app-team></app-team>
   </div>
 </div>
-
-<!-- 
-
-<nav>
-  <a class="button" routerLink="/accueil" routerLinkActive="activebutton">Accueil</a> 
-  <a class="button" routerLink="/articles" routerLinkActive="activebutton">Articles</a>
-  <a class="button" routerLink="/contacts" routerLinkActive="activebutton">Contacts</a> 
-  <a class="button" routerLink="/team" routerLinkActive="activebutton">Team</a>
-  <a class="button" routerLink="/videos" routerLinkActive="activebutton">Videos</a> 
-</nav>
-
-<app-accueil></app-accueil>
-<app-articles></app-articles>
-<app-contacts></app-contacts>
-<app-team></app-team>
-<app-videos></app-videos>
-
-<router-outlet></router-outlet>
- -->

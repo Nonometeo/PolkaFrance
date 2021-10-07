@@ -1,0 +1,30 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+
+  .logo-polkafrance {
+    width: 100px;
+    height: 100px;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .menu-link-container {
+      padding: 1em;
+      list-style: none;
+
+      .menu-link {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .social-networks-container {
+    display: flex;
+  }
+}

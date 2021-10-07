@@ -9,6 +9,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { PresentationEcosystemeComponent } from './presentation-ecosysteme/presentation-ecosysteme.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PresentationEcosystemeComponent } from './presentation-ecosysteme/prese
     TeamComponent,
     ContactsComponent,
     AccueilComponent,
-    PresentationEcosystemeComponent
+    PresentationEcosystemeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
