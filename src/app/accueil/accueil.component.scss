@@ -1,9 +1,30 @@
-.background-png {
+.background-right-png {
   position: absolute;
   right: 0;
   top: 0;
 }
 
+.background-left-png {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 322px;
+  height: 500px;
+}
+
 .container {
   height: 100vh;
+
+  .title-polkafrance-container {
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 30%;
+  }
+
+  .go-to-articles-button {
+    position: absolute;
+    left: 45%;
+    top: 80%;
+  }
 }
