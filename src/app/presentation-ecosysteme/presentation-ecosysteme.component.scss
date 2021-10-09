@@ -7,15 +7,11 @@
     position: absolute;
     top: 0;
     width: 100%;
-  }
-
-  .market {
-    height: 15%;
-    width: 100%;
+    height: 50%;
   }
 
   .polkadot-kusama-container {
-    height: 348px;
+    height: 50%;
     display: flex;
     flex-direction: row;
 
@@ -35,16 +31,40 @@
     }
   }
 
+  .market {
+    height: 5%;
+    width: 100%;
+    margin-top: 1em;
+
+    .market-text {
+      @include dosis-semi-bold-medium;
+      color: var(--black);
+      margin: 0;
+      width: fit-content;
+      text-align: center;
+      margin: 0 auto;
+      border-bottom: 2px solid;
+    }
+  }
+
   .comparaison-maket-container {
     display: flex;
     width: 100%;
     height: 100%;
 
-    .polkadot {
+    .ecosystem-container {
       width: 50%;
-    }
-    .kusama {
-      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .logo-ecosystem {
+        max-width: 50%;
+        max-height: 20%;
+      }
+
+      .ecosystem-data {
+        @include dosis-semi-bold-medium;
+      }
     }
   }
 }
