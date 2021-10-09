@@ -1,0 +1,24 @@
+
+@mixin dosis-extra-bold-large {
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 48px;
+}
+
+@mixin dosis-semi-bold-medium {
+  font-family: "Dosis";
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@mixin dosis-semi-bold-small {
+  font-family: "Dosis";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@mixin dosis-semi-bold-large {
+  font-family: "Dosis";
+  font-weight: 600;
+  font-size: 48px;
+}

@@ -1,3 +1,5 @@
+@import "../../styles/fonts.scss";
+
 .background-right-png {
   position: absolute;
   right: 0;
@@ -22,9 +24,19 @@
     top: 30%;
   }
 
+  .text-principal {
+    @include dosis-semi-bold-medium;
+    color: var(--primary);
+  }
+
   .go-to-articles-button {
     position: absolute;
     left: 45%;
     top: 80%;
+    background: var(--black);
+    @include dosis-semi-bold-medium;
+    color: var(--white);
+    padding: 1em;
+    border-radius: 2em;
   }
 }
